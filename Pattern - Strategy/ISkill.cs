@@ -4,25 +4,25 @@ using System.Text;
 
 namespace Pattern___Strategy
 {
-    public interface Skill
+    public interface ISkill
     {
         public void UseSkill();
     }
-    public class DamageSkill : Skill
+    public class DamageSkill : ISkill
     {
         public void UseSkill()
         {
             Console.WriteLine("Take some damage");
         }
     }
-    public class HealSkill : Skill
+    public class HealSkill : ISkill
     {
         public void UseSkill()
         {
             Console.WriteLine("Heal someone's");
         }
     }
-    public class MoveSkill : Skill
+    public class MoveSkill : ISkill
     {
         public void UseSkill()
         {

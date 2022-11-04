@@ -4,32 +4,32 @@ using System.Text;
 
 namespace Pattern___Strategy
 {
-    public interface Weapon
+    public interface IWeapon
     {
         public void UseWeapon();
     }
-    public class Axe : Weapon
+    public class Axe : IWeapon
     {
         public void UseWeapon()
         {
             Console.WriteLine("Slash");
         }
     }
-    public class Knife : Weapon
+    public class Knife : IWeapon
     {
         public void UseWeapon()
         {
             Console.WriteLine("Thrust");
         }
     }
-    public class Bow : Weapon
+    public class Bow : IWeapon
     {
         public void UseWeapon()
         {
             Console.WriteLine("Shot");
         }
     }
-    public class Staff : Weapon
+    public class Staff : IWeapon
     {
         public void UseWeapon()
         {

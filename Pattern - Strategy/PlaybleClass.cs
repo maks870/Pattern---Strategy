@@ -6,14 +6,14 @@ namespace Pattern___Strategy
 {
     public class PlaybleClass
     {
-        private Weapon weapon;
-        private Skill skill;
+        private IWeapon weapon;
+        private ISkill skill;
 
-        public void EquipWeapon(Weapon newWeapon)
+        public void EquipWeapon(IWeapon newWeapon)
         {
             weapon = newWeapon;
         }
-        public void ReplaceSkill(Skill newSkill)
+        public void ReplaceSkill(ISkill newSkill)
         {
             skill = newSkill;
         }
@@ -28,22 +28,22 @@ namespace Pattern___Strategy
     }
     class Archer : PlaybleClass
     {
-        private Weapon weapon = new Bow();
-        private Skill skill = new DamageSkill();
+        private IWeapon weapon = new Bow();
+        private ISkill skill = new DamageSkill();
     }
     class Rogue : PlaybleClass
     {
-        private Weapon weapon = new Knife();
-        private Skill skill = new MoveSkill();
+        private IWeapon weapon = new Knife();
+        private ISkill skill = new MoveSkill();
     }
     class Mage : PlaybleClass
     {
-        private Weapon weapon = new Staff();
-        private Skill skill = new HealSkill();
+        private IWeapon weapon = new Staff();
+        private ISkill skill = new HealSkill();
     }
     class Warrior : PlaybleClass
     {
-        private Weapon weapon = new Axe();
-        private Skill skill = new DamageSkill();
+        private IWeapon weapon = new Axe();
+        private ISkill skill = new DamageSkill();
     }
 }
