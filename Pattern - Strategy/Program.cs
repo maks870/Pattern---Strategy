@@ -11,6 +11,9 @@ namespace Pattern___Strategy
             newClass.SkillAction();
             newClass.EquipWeapon(new Bow());
             newClass.AttackAction();
+            newClass.ReplaceSkill(new DamageSkill());
+            newClass.SkillAction();
+            Console.ReadKey();
         }
     }
 }

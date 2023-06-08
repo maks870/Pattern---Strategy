@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.exe
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.deps.json
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.runtimeconfig.json
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.dll
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\bin\Debug\netcoreapp3.1\Pattern - Strategy.pdb
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.dll
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.pdb
+C:\Users\Administrator\source\repos\Pattern - Strategy\Pattern - Strategy\obj\Debug\netcoreapp3.1\Pattern - Strategy.genruntimeconfig.cache

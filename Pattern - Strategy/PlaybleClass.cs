@@ -4,46 +4,68 @@ using System.Text;
 
 namespace Pattern___Strategy
 {
-    public class PlaybleClass
+    public abstract class PlaybleClass
     {
-        private IWeapon weapon;
-        private ISkill skill;
+        protected IWeapon weapon;
+        protected ISkill skill;
 
         public void EquipWeapon(IWeapon newWeapon)
         {
             weapon = newWeapon;
+            Console.WriteLine($"Equip {newWeapon.Name} weapon");
         }
+
         public void ReplaceSkill(ISkill newSkill)
         {
             skill = newSkill;
+            Console.WriteLine($"Set {newSkill.Name} skill");
         }
+
         public void AttackAction()
         {
             weapon.UseWeapon();
+
         }
+
         public void SkillAction()
         {
             skill.UseSkill();
         }
     }
+
     class Archer : PlaybleClass
     {
-        private IWeapon weapon = new Bow();
-        private ISkill skill = new DamageSkill();
+        public Archer()
+        {
+            weapon = new Bow();
+            skill = new DamageSkill();
+        }
     }
+
     class Rogue : PlaybleClass
     {
-        private IWeapon weapon = new Knife();
-        private ISkill skill = new MoveSkill();
+        public Rogue()
+        {
+            weapon = new Knife();
+            skill = new MoveSkill();
+        }
     }
+
     class Mage : PlaybleClass
     {
-        private IWeapon weapon = new Staff();
-        private ISkill skill = new HealSkill();
+        public Mage()
+        {
+            weapon = new Staff();
+            skill = new HealSkill();
+        }
     }
+
     class Warrior : PlaybleClass
     {
-        private IWeapon weapon = new Axe();
-        private ISkill skill = new DamageSkill();
+        public Warrior()
+        {
+            weapon = new Axe();
+            skill = new DamageSkill();
+        }
     }
 }
