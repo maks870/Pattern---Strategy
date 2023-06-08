@@ -32,40 +32,4 @@ namespace Pattern___Strategy
             skill.UseSkill();
         }
     }
-
-    class Archer : PlaybleClass
-    {
-        public Archer()
-        {
-            weapon = new Bow();
-            skill = new DamageSkill();
-        }
-    }
-
-    class Rogue : PlaybleClass
-    {
-        public Rogue()
-        {
-            weapon = new Knife();
-            skill = new MoveSkill();
-        }
-    }
-
-    class Mage : PlaybleClass
-    {
-        public Mage()
-        {
-            weapon = new Staff();
-            skill = new HealSkill();
-        }
-    }
-
-    class Warrior : PlaybleClass
-    {
-        public Warrior()
-        {
-            weapon = new Axe();
-            skill = new DamageSkill();
-        }
-    }
 }
